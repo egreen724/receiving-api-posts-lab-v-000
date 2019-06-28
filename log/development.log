@@ -1898,3 +1898,5 @@ Processing by ProductsController#show as HTML
 Completed 200 OK in 36ms (Views: 33.4ms | ActiveRecord: 0.1ms)
 
 
+Started GET "/products/13.json" for 130.207.60.253 at 2019-06-28 17:13:53 +0000
+Cannot render console from 130.207.60.253! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
