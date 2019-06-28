@@ -1802,3 +1802,11 @@ Completed 201 Created in 14ms (Views: 3.3ms | ActiveRecord: 6.6ms)
 
 Started GET "/products" for 130.207.60.253 at 2019-06-28 17:13:09 +0000
 Cannot render console from 130.207.60.253! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 305ms (Views: 285.4ms | ActiveRecord: 1.0ms)
+
+
