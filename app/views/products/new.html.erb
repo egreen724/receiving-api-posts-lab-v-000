@@ -30,8 +30,8 @@
 
       posting.done(function(data) {
         var product = data;
-        $("#productName").text(product["name"]);
-        $("#productInfo").text(product["description"] + ", " + product["price"] + ", " + product["inventory"]);
+        $("#productName").text("Name:" + product["name"]);
+        $("#productInfo").text("Description:" + product["description"] + ", Price: " + product["price"] + ", Inventory: " + product["inventory"]);
       });
     });
   });
